@@ -20,10 +20,10 @@ class Student
   end
 
   def self.drop_table
-    sql =  <<-SQL 
+    sql =  <<-SQL
       DROP TABLE
         SQL
-    DB[:conn].execute(sql) 
+    DB[:conn].execute(sql)
   end
 
 end
